@@ -1,1 +1,72 @@
-
+[
+    {
+        "img": "img/argentina.png",
+        "answer_1": "guatemala",
+        "answer_2": "argentina",
+        "answer_3": "uruguay",
+        "right_answer": "argentina"
+    },
+    {
+        "img": "img/brazil.png",
+        "answer_1": "bolivia",
+        "answer_2": "chile",
+        "answer_3": "brazil",
+        "right_answer": "brazil"
+    },
+    {
+        "img": "img/canada.png",
+        "answer_1": "canada",
+        "answer_2": "egypt",
+        "answer_3": "tunisia",
+        "right_answer": "canada"
+    },
+    {
+        "img": "img/egypt.png",
+        "answer_1": "syria",
+        "answer_2": "egypt",
+        "answer_3": "iraq",
+        "right_answer": "egypt"
+    },
+    {
+        "img": "img/germany.png",
+        "answer_1": "belgium",
+        "answer_2": "ireland",
+        "answer_3": "germany",
+        "right_answer": "germany"
+    },
+    {
+        "img": "img/iraq.png",
+        "answer_1": "iraq",
+        "answer_2": "syria",
+        "answer_3": "yemen",
+        "right_answer": "iraq"
+    },
+    {
+        "img": "img/lebanon.png",
+        "answer_1": "canada",
+        "answer_2": "lebanon",
+        "answer_3": "morocco",
+        "right_answer": "lebanon"
+    },
+    {
+        "img": "img/mexico.png",
+        "answer_1": "italy",
+        "answer_2": "iran",
+        "answer_3": "mexico",
+        "right_answer": "mexico"
+    },
+    {
+        "img": "img/somalia.png",
+        "answer_1": "vietnam",
+        "answer_2": "somalia",
+        "answer_3": "albania",
+        "right_answer": "somalia"
+    },
+    {
+        "img": "img/uzbekistan.png",
+        "answer_1": "uzbekistan",
+        "answer_2": "tajikistan",
+        "answer_3": "kyrgyzstan",
+        "right_answer": "uzbekistan"
+    }
+]

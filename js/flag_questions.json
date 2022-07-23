@@ -191,7 +191,7 @@
     {
         "img": "libya.png",
         "options": [
-            "Pakistan",
+            "pakistan",
             "Madagascar",
             "libya"
         ],
@@ -245,7 +245,7 @@
     {
         "img": "turkey.png",
         "options": [
-            "Pakistan",
+            "pakistan",
             "tunisia",
             "turkey"
         ],
@@ -322,5 +322,41 @@
             "colombia"
         ],
         "right_answer": "colombia"
+    },
+    {
+        "img": "sri-lanka.png",
+        "options": [
+            "tajikistan",
+            "pakistan",
+            "sri lanka"
+        ],
+        "right_answer": "sri lanka"
+    },
+    {
+        "img": "kyrgyzstan.png",
+        "options": [
+            "kyrgyzstan",
+            "tajikistan",
+            "kazakhstan"
+        ],
+        "right_answer": "kyrgyzstan"
+    },
+    {
+        "img": "georgia.png",
+        "options": [
+            "england",
+            "indonesia",
+            "georgia"
+        ],
+        "right_answer": "georgia"
+    },
+    {
+        "img": "tanzania.png",
+        "options": [
+            "zimbabwe",
+            "tanzania",
+            "mozambique"
+        ],
+        "right_answer": "tanzania"
     }
 ]

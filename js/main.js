@@ -100,6 +100,7 @@ function checkAnswer(rAnswer, count) {
     }
 }
 
+//Show result correct answer and wrong answer
 function showResults(count) {
     if (currentIndex === count) {
         flagOptions.innerHTML = '';
@@ -110,6 +111,7 @@ function showResults(count) {
     }
 }
 
+//To generate a new game
 btnNewGame.addEventListener('click', () => {
     window.location.reload();
 });

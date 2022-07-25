@@ -119,13 +119,7 @@ btnNewGame.addEventListener('click', () => {
     window.location.reload();
 });
 
-
-// window.addEventListener("scroll", () => {
-//         audio.play();
-//         audioBtn.classList.add('fa-volume-up');
-// })
-
-audioBtn.addEventListener("click", () => {
+/*audioBtn.addEventListener("click", () => {
     if (audio.paused) {
         audio.play();
         audioBtn.classList.add('fa-volume-up');
@@ -136,4 +130,4 @@ audioBtn.addEventListener("click", () => {
         audioBtn.classList.remove('fa-volume-up');
 
     }
-});
+});*/

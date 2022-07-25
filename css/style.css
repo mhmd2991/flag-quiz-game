@@ -211,6 +211,14 @@ h3 {
     font-weight: bold;
 }
 
+.musicBtn {
+    background: transparent;
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
 @media(min-width: 375px) {
     h1 {
         font-size: 3rem;

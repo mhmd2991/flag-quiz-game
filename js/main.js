@@ -9,7 +9,10 @@ let scoreDiv = document.querySelector('.score');
 let correctAns = document.querySelector('.score .right span');
 let incorrectAns = document.querySelector('.score .incorrect span');
 let btnNewGame = document.querySelector('#newGame');
+let audio = document.querySelector('.music audio');
+let audioBtn = document.querySelector('.music .musicBtn i');
 
+audio.volume = 0.2;
 let currentIndex = 0;
 let rightAnswers = 0;
 
@@ -114,4 +117,23 @@ function showResults(count) {
 //To generate a new game
 btnNewGame.addEventListener('click', () => {
     window.location.reload();
+});
+
+
+// window.addEventListener("scroll", () => {
+//         audio.play();
+//         audioBtn.classList.add('fa-volume-up');
+// })
+
+audioBtn.addEventListener("click", () => {
+    if (audio.paused) {
+        audio.play();
+        audioBtn.classList.add('fa-volume-up');
+        audioBtn.classList.remove('fa-volume-mute');
+    } else {
+        audio.pause();
+        audioBtn.classList.add('fa-volume-mute');
+        audioBtn.classList.remove('fa-volume-up');
+
+    }
 });

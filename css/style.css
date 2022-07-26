@@ -9,7 +9,7 @@
 
 :root {
     --white: #ffffff;
-    --blue: #673ab7;
+    --violet: #673ab7;
 }
 
 html {
@@ -21,7 +21,6 @@ html {
 }
 
 body {
-    /*background-color: var(--blue);*/
     background: url(../img/bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,7 +51,7 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     text-transform: capitalize;
-    color: var(--blue);
+    color: var(--violet);
     padding: 2rem 0;
 }
 
@@ -60,7 +59,7 @@ h3 {
     font-size: 2rem;
     padding: 2rem 0;
     text-transform: capitalize;
-    color: var(--blue);
+    color: var(--violet);
     padding: 2rem;
 }
 
@@ -69,7 +68,6 @@ h3 {
     padding-right: 1.5rem;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 @media(min-width: 576px) {
@@ -111,8 +109,8 @@ h3 {
 
 .box .count {
     font-size: 2rem;
-    font-weight: bold;
-    color: var(--blue);
+    font-weight: 700;
+    color: var(--violet);
     text-transform: capitalize;
     padding: 2rem;
 }
@@ -169,10 +167,21 @@ h3 {
     padding: 1rem;
     border-radius: .5rem;
     width: 240px;
-    color: var(--blue);
+    color: var(--violet);
     cursor: pointer;
-    box-shadow: 0 5px 5px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0 .5rem .5rem .5rem rgba(0 0 0 / .3);
     transition: all .1s ease-in-out;
+}
+
+#newGame {
+    border: none;
+    background-color: var(--violet);
+    padding: 1.5rem;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
 }
 
 .score {
@@ -181,14 +190,13 @@ h3 {
     border-radius: .5rem;
 }
 
-
 .score .right,
 .score .incorrect {
-    color: var(--blue);
+    color: var(--violet);
 }
 
 .flags .flag-options ul li.active {
-    background-color: var(--blue);
+    background-color: var(--violet);
     color: var(--white);
 }
 
@@ -200,42 +208,15 @@ h3 {
     background-color: red;
 }
 
-#newGame {
-    border: none;
-    background-color: var(--blue);
-    padding: 1.5rem;
-    color: var(--white);
-    cursor: pointer;
-    font-size: 1.8rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
-}
-
-.musicBtn {
-    background: transparent;
-    padding: 1.5rem 2rem;
-    font-size: 3rem;
-    border: none;
-    cursor: pointer;
-}
-
 @media(min-width: 375px) {
-    h1 {
-        font-size: 3rem;
-    }
 
-    h3 {
-        font-size: 3rem;
-    }
-
+    h1,
+    h3,
     .box .count {
         font-size: 3rem;
     }
 
-    .flags .flag-img {
-        width: 30rem;
-    }
-
+    .flags .flag-img,
     .flags .flag-options ul {
         width: 30rem;
     }
@@ -253,7 +234,7 @@ h3 {
 
 @media(min-width: 991px) {
     .flags .flag-options ul li:hover {
-        background-color: var(--blue);
+        background-color: var(--violet);
         color: var(--white);
     }
 }

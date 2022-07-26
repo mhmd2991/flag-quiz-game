@@ -520,5 +520,14 @@
             "jamaica"
         ],
         "right_answer": "zambia"
+    },
+    {
+        "img": "malawi.png",
+        "options": [
+            "malawi",
+            "mali",
+            "moldova"
+        ],
+        "right_answer": "malawi"
     }
 ]

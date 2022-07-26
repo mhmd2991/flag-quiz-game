@@ -529,5 +529,14 @@
             "moldova"
         ],
         "right_answer": "malawi"
+    },
+    {
+        "img": "swaziland.png",
+        "options": [
+            "slovenia",
+            "malawi",
+            "swaziland"
+        ],
+        "right_answer": "swaziland"
     }
 ]
